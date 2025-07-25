@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h3>contact me</h3>
+    <!--Forms-->
+   <form action="./index.html">
+   
+    <label for="FullName">Full Name:</label>
+    <input type="text" id="FullName" placeholder="Enter your name" required>
+    <br>
+    <label for="Email">E-mail:</label>
+    <input type="email" id="Email" placeholder="xyz@gmail.com" required>
+    <br>
+    <label for="company">Company:</label>
+    <input type="text" id="company" placeholder="Optional">
+    <br>
+   <label for="subject">Subject:</label>
+   <input type="text" id="subject" placeholder="Brief topic of your message" required>
+   <br>
+   <label for="message">Your Message:</label><br>
+   <textarea rows="5" cols="20" id="message" placeholder="Write your message or inquiry here..." required></textarea>
+   <br>
+   <label for="reason">Reason For Contact</label>
+   <select name="Reason" id="reason">
+    <option value="General" name="Reason">General inquiry</option>
+    <option value="Business" name="Reason">Business Proposal</option>
+    <option value="Partnership" name="Reason">Partnership Opportunity</option>
+    <option value="Technical" name="Reason">Technical Support</option>
+    <option value="Recruitment" name="Reason">Recruitment</option>
+    <option value="Feedback" name="Reason">Feedback</option>
+   </select>
+   <br>
+   <label for="file">Attach a file (PDF, DOCX, PNG)</label><br>
+   <input type="file" accept=".pdf, .docx,.png">
+   <br>
+  <label>Preffered Response time</label><br>
+  <input type="radio" id="res1" name="response" value="within 24 hours">
+  <label for="res1">within 24 hours</label><br>
+  <input type="radio" id="res2" name="response" value="1-2 business days">
+  <label for="res2">1-2 business days</label><br>
+  <input type="radio" id="res3" name="response" value="no hurry">
+  <label for="res3">No hurry</label><br>
+
+
+   <input type="checkbox" id="consent" required="true">
+   <label for="consent"><i>I agree to the privacy policy and terms of service.</i></label>
+   <br>
+
+   <input type="submit" name="Submit">
+
+   </form>
+
+   <br>
+   <iframe width="300" height="150" src="https://www.youtube.com/embed/rklidcZ-aLU?si=oqYBH5qfiFRGNRtV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+</html>
+<!--
+
+
+-->
